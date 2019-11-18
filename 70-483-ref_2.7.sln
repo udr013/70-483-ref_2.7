@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManupulation", "StringManupulation\StringManupulation.csproj", "{C86873A9-A14B-4BDA-B2D0-C997BD7155BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManupulation", "StringManupulation\StringManupulation.csproj", "{C86873A9-A14B-4BDA-B2D0-C997BD7155BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReaderAndWriter", "StringReaderAndWriter\StringReaderAndWriter.csproj", "{BF620B82-EBAA-4DC0-B2DF-9C5C25D9C7E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringReaderAndWriter", "StringReaderAndWriter\StringReaderAndWriter.csproj", "{BF620B82-EBAA-4DC0-B2DF-9C5C25D9C7E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompare", "StringCompare\StringCompare.csproj", "{3A4E7B6D-9CE2-41F9-A1A2-A600D07957AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringCompare", "StringCompare\StringCompare.csproj", "{3A4E7B6D-9CE2-41F9-A1A2-A600D07957AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilders", "StringBuilders\StringBuilders.csproj", "{C1A0F0CB-36D9-4EC8-B2AD-CBF334B88A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilders", "StringBuilders\StringBuilders.csproj", "{C1A0F0CB-36D9-4EC8-B2AD-CBF334B88A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompareAndCulture", "StringCompareAndCulture\StringCompareAndCulture.csproj", "{50D2F4AF-9F73-43A2-B996-C2B84A894B71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringCompareAndCulture", "StringCompareAndCulture\StringCompareAndCulture.csproj", "{50D2F4AF-9F73-43A2-B996-C2B84A894B71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatStrings", "FormatStrings\FormatStrings.csproj", "{9EB63F66-D5E7-47E9-B513-D326952E9FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStringFormatting", "CustomStringFormatting\CustomStringFormatting.csproj", "{499ADE65-8905-41FA-BCFB-BE2EA0DC9B24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{50D2F4AF-9F73-43A2-B996-C2B84A894B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50D2F4AF-9F73-43A2-B996-C2B84A894B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D2F4AF-9F73-43A2-B996-C2B84A894B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB63F66-D5E7-47E9-B513-D326952E9FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB63F66-D5E7-47E9-B513-D326952E9FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB63F66-D5E7-47E9-B513-D326952E9FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB63F66-D5E7-47E9-B513-D326952E9FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499ADE65-8905-41FA-BCFB-BE2EA0DC9B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499ADE65-8905-41FA-BCFB-BE2EA0DC9B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499ADE65-8905-41FA-BCFB-BE2EA0DC9B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499ADE65-8905-41FA-BCFB-BE2EA0DC9B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
